@@ -1,0 +1,90 @@
+#AddPage{
+    display: block;
+    margin: auto;
+    position: absolute;
+    /* background-color: #ecebf0; */
+    z-index: 1;
+    top: 16vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.addContents{
+    height: 400px;
+    display: block;
+    margin: auto;
+    position: relative;
+    /* background-color: greenyellow; */
+    z-index: 1;
+    top: 90px;
+}
+
+#AddFont{
+    position: relative;
+    top: 10vh;
+    width: 161px;
+    height: 27px;
+    display: block;
+    margin: auto;
+    font-family: 'Merienda', cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 20px;
+/* identical to box height, or 71% */
+align-items: center;
+letter-spacing: 0.09em;
+
+color: white;
+}
+
+.AddForm{
+    position: relative;
+    width: 248px;
+    padding-bottom: 25px;
+    top: 3px;
+    display: block;
+    margin: auto;
+}
+
+input.AddPageInput{
+    border-radius: 13px;
+    padding: 1px 15px;
+}
+
+#description{
+    height: 200px;
+}
+
+textarea{
+    vertical-align: top;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1px 15px;
+    padding-right: 20px;
+    border-radius: 13px;
+    width: 247px;
+}
+
+#Automated {
+    width: 255px;
+}
+
+label.endDate{
+    position: relative;
+    color: white;
+    font-weight: 500;
+    margin-right: 13px;
+    top: 3px;
+}
+
+.react-datetime-picker__wrapper {
+    color: black;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.rc-time-picker{
+    width: 100px;
+}

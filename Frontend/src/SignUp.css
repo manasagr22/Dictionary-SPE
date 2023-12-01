@@ -1,0 +1,150 @@
+#iconImageDo{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    width: 222px;
+}
+
+#DoItBackground{
+    position: absolute;
+    background: url('./res/Background1.jpg') no-repeat scroll center top transparent;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#iconDo{
+    position: relative;
+    width: 140px;
+    display: block;
+    /* margin: auto; */
+}
+
+#SignUpFont{
+    position: relative;
+width: 200px;
+height: 32px;
+top: 25px;
+font-family: 'Jomolhari', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 20px;
+/* identical to box height, or 56% */
+
+display: block;
+margin: auto;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+color: #FFFFFF;
+}
+
+i.name::before{
+    content: '\e7fd';
+}
+
+i.email::before{
+    content: '\e0be';
+}
+
+i.password::before{
+    content: '\e897';
+}
+
+#SignUp{
+    position: relative;
+}
+
+#SignUpContainer{
+    display: block;
+    top: 90px;
+    position: relative;
+    overflow: auto;
+}
+
+.form{
+    position: relative;
+    width: 248px;
+    padding-bottom: 25px;
+    top: 3px;
+}
+
+input{
+    vertical-align: top;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1px 34px;
+    padding-right: 20px;
+    border-radius: 30px;
+    height: 40px;
+    width: 247px;
+}
+
+label{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+
+#submit{
+    background: #084DFF;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    font-family: 'Jomolhari', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 20px;
+/* identical to box height, or 118% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.09em;
+padding: 7px 13px;
+padding-bottom: 9px;
+color: #FFFFFF;
+}
+
+#linkSignIn{
+    margin-top: 10px;
+}
+
+#SignInFont{
+    font-family: 'Jomolhari', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: block;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+
+.signIn-visit{
+    padding-left: 10px;
+    color: cornflowerblue;
+}
+
+#show-password{
+    border: none;
+    background: none;
+    position: absolute;
+}
+
+i.showPassword{
+    position: absolute;
+    left: 186px;
+}
+
+.Pass{
+    padding-right: 36px;
+}

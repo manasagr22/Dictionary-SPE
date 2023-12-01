@@ -1,0 +1,8 @@
+#imageID{
+    display: flex;
+    max-width: 32%;
+    float: right;
+    position: absolute;
+    left: 229px;
+    bottom: 25px;
+}

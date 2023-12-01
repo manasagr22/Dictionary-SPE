@@ -1,0 +1,21 @@
+version: "3"
+services:
+  backend:
+    image: backend
+    container_name: backend-container
+    ports:
+      - 4000:4000
+    networks:
+      - my-network
+
+  frontend:
+    image: frontend
+    container_name: frontend-container
+    ports:
+      - "3000:3000"
+    networks:
+      - my-network
+      
+networks:
+  my-network:
+    driver: bridge

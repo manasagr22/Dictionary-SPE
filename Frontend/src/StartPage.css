@@ -1,0 +1,185 @@
+#start{
+    position: relative;
+}
+
+#startPage1{
+    position: absolute;
+    background: url('./res/Background1.jpg') no-repeat scroll center top transparent;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#frame{
+    position: absolute;
+/* box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+#title{
+    position: relative;
+width: 200px;
+height: 20px;
+/* left: 60px; */
+top: 20px;
+
+font-family: 'Libre Baskerville', serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 20px;
+/* identical to box height, or 56% */
+
+display: block;
+margin: auto;
+align-items: center;
+text-align: center;
+letter-spacing: 0.15em;
+
+color: #FFFFFF;
+}
+
+#icon{
+    position: relative;
+    width: 260px;
+}
+
+#iconDiv{
+    display: block;
+    margin: auto;
+    top: 29px;
+    position: relative;
+    top: 60px;
+    width: 260px;
+}
+
+#slide{
+    position: absolute;
+    /* background-color: black; */
+    height: 20px;
+    width: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+}
+
+#desc{
+    position: relative;
+width: 220px;
+height: 20px;
+/* left: 60px; */
+top: 70px;
+    font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 20px;
+/* or 91% */
+
+display: block;
+margin: auto;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+
+#startIt{
+    position: relative;
+width: 177px;
+height: 150px;
+/* left: 102px; */
+top: 129px;
+
+font-family: 'Abril Fatface', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 56px;
+/* or 144% */
+
+display: block;
+margin: auto;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+
+#startButton{
+    position: relative;
+    height: 46px;
+    width: 120px;
+    background: #0029FF;
+    border-radius: 14px;
+    display: block;
+    margin: auto;
+}
+
+#buttonFont{
+    display: block;
+    margin: auto;
+    color: #FFFFFF;
+    font-family: 'BIZ UDPMincho', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+/* or 165% */
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+}
+
+#buttonDiv{
+    display: block;
+    margin: auto;
+    top: 29px;
+    position: relative;
+    top: 60px;
+    width: 120px;
+    height: 46px;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
