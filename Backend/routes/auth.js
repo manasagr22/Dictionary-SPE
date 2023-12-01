@@ -4,7 +4,6 @@ const { encrypt, decrypt } = require('./crypto');
 const mail = require('../sendMail');
 const bcrypt = require("bcryptjs");
 const router = express.Router();
-const axios = require('axios');
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
 const JWT_SECRET = "sdjkfh8923yhjdksbfma@#*(&@*!^#&@bhjb2qiuhesdbhjdsfg839ujkdhfjk";

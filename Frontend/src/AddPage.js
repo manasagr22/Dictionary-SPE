@@ -88,7 +88,7 @@ export default class AddPage extends Component {
         this.props.alertFunc('danger', "Word cannot be Empty!!!");
       else {
       let bg = document.getElementById('DoItBackground').style;
-      const PORT = process.env.PORT || 5000;
+      const PORT = process.env.PORT || 4000;
       let url = process.env.NODE_ENV === 'production' ? 'https://my-dictionary.onrender.com/api/auth/getMeaning' : `${data.URL}:${PORT}/api/auth/getMeaning`
       this.setState({spinnerActive: true})
       const result = await fetch(url, {
