@@ -1,4 +1,4 @@
-const db = require('./db');
+const db = require('./db');  //
 const sendMail = require('./sendMail');
 const auth = require('./routes/auth.js');
 const express = require('express');
