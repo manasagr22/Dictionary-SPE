@@ -14,7 +14,7 @@ log4js.configure({
   categories: { default: { appenders: ["auth"], level: "info" } },
 });
 
-const logger = log4js.getLogger("cheese");
+const logger = log4js.getLogger("auth");
 
 const Collection1 = db.collection("USER");
 
