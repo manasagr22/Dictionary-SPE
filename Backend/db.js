@@ -6,5 +6,5 @@ firebase.initializeApp({
     credential: firebase.credential.cert(serviceAccount),
     databaseURL: "https://doit-ce487.firebaseio.com",
 });
-const db = firebase.firestore();    //
+const db = firebase.firestore();    //Database initialisation
 module.exports = db;
