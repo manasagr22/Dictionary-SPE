@@ -1,7 +1,7 @@
 version: "3"
 services:
   backend:
-    image: backend
+    image: manasagr2201/backend-image
     container_name: backend-container
     ports:
       - 4000:4000
@@ -9,7 +9,7 @@ services:
       - my-network
 
   frontend:
-    image: frontend
+    image: manasagr2201/frontend-image
     container_name: frontend-container
     ports:
       - "3000:3000"
