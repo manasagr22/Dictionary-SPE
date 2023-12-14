@@ -3,7 +3,7 @@ import './Alert.css';
 
 export default function Alert(props) {
     const CapitalizeFirstChar = () => {
-        if(props.alert.type === "success")        //Alert
+        if(props.alert.type === "success")        //Alert Success
             return "Success:";
         else
             return "Danger:";
