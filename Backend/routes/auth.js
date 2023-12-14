@@ -10,7 +10,7 @@ const log4js = require('log4js');
 const JWT_SECRET = "sdjkfh8923yhjdksbfma@#*(&@*!^#&@bhjb2qiuhesdbhjdsfg839ujkdhfjk";
 
 log4js.configure({
-  appenders: { cheese: { type: "file", filename: "logs.log" } },
+  appenders: { auth: { type: "file", filename: "logs.log" } },
   categories: { default: { appenders: ["auth"], level: "info" } },
 });
 
