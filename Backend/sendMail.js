@@ -41,12 +41,17 @@ function setConfigurationForReset(email, otp) {
 }
 
 async function sendMail(res) {
+  try {
 transporter.sendMail(mailConfigurations, function(error, info){
   if (error)
     res.json({status: "error"});
   else
     res.json({status: "ok"});
 });
+  }
+  catch(error) {
+    res.json({status: "error"});
+  }
 }
 
 async function sendMail1(name, res) {
